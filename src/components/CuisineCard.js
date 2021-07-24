@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Card, Image, Heading, Text } from 'rebass';
-
+import cuisine from '../cuisine.jpeg';
 class CuisineCard extends React.Component {
     render() {
         return (
@@ -12,7 +12,7 @@ class CuisineCard extends React.Component {
                         boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
                     }}
                 >
-                {/* <Image src={cuisine} /> */}
+                <Image src={cuisine} />
                 <Box px={2}>
                     <Heading as="h3">Look at this great food!</Heading>
                     <Text fontSize={0}>What's your favorite?</Text>
